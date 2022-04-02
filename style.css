@@ -16,6 +16,7 @@
     --cor03: #E0E0E0;
     --cor04: #262626;
     --gradiente: linear-gradient(to bottom right,black,var(--cor04));
+    --gradientefooter: linear-gradient(to top, to bottom,black, red);
     --font1: 'Montserrat', sans-serif;;
     --font2: 'Corinthia', cursive;;
     --font3: 'Open Sans', sans-serif;
@@ -143,8 +144,11 @@ a:hover {
     font-size: 1.2em;
     padding: 20px;
 }
-.intro::after {
+.intro > h3::after {
     content: url(ícones/icons8-para-baixo-2-19.png);
+    background-color: white;
+    border-radius: 10%;
+    margin-left: 10px;
 }
 .sobre {
     background-image: url(images/mechanic\ found.jpg);
@@ -176,14 +180,14 @@ a:hover {
     display: grid;
     grid-template-columns: 260px 260px 260px;
     grid-template-rows: auto;
-    grid-gap: 15px;
+    grid-gap: 10px;
     justify-content: center;
     align-items: center;
     background-image: url(images/ThanitApril_58.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     /*background-position-x: center;*/
-    padding-top: 20px;
+    padding-top: 10px;
     font-size: 15px;
 }
 .servico > div {
@@ -205,7 +209,17 @@ a:hover {
 
 
 footer {
-    background-color: var(--cor03);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: var(--gradientefooter);
+    height: 200px;
+    color: white;
+    padding: 14px;
+    font-family: var(--font2);
+    font-size: 1.9em;
+    letter-spacing: 2px;
+
 }
 
 
