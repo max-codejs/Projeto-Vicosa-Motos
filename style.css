@@ -16,7 +16,7 @@
     --cor03: #E0E0E0;
     --cor04: #262626;
     --gradiente: linear-gradient(to bottom right,black,var(--cor04));
-    --gradientefooter: linear-gradient(to top, to bottom,black, red);
+    --gradientefooter: linear-gradient(to right,black,#2F4F4F);
     --font1: 'Montserrat', sans-serif;;
     --font2: 'Corinthia', cursive;;
     --font3: 'Open Sans', sans-serif;
@@ -187,7 +187,6 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     /*background-position-x: center;*/
-    padding-top: 10px;
     font-size: 15px;
 }
 .servico > div {
@@ -206,7 +205,10 @@ a:hover {
     border-radius: 10px;
     opacity: 0.8;
 }
-
+.servico > div > h3 {
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
 
 footer {
     display: flex;
@@ -217,9 +219,21 @@ footer {
     color: white;
     padding: 14px;
     font-family: var(--font2);
-    font-size: 1.9em;
+    font-size: 1.7em;
     letter-spacing: 2px;
-
+    
+}
+footer > div > img {
+    border-radius: 10%;
+}
+footer > .address > p > img {
+    margin-bottom: -5px;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 0.9;
+}
+footer > .address > p > img:hover {
+    background-color: #2F4F4F;
 }
 
 
