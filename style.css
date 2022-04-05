@@ -145,7 +145,7 @@ a:hover {
     padding: 20px;
 }
 .intro > h3::after {
-    content: url(ícones/icons8-para-baixo-2-19.png);
+    content: url(icones/icons8-para-baixo-2-19.png);
     background-color: white;
     border-radius: 10%;
     margin-left: 10px;

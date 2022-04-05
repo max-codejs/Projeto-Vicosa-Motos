@@ -1,2 +1,3 @@
 # Projeto-Vicosa-Motos
- Projeto da Empresa Viçosa Motos localizada em Maceió 
+ Projeto da minha empresa Viçosa Motos localizada em Maceió
+ Neste projeto usei apenas as tecnologias CSS + HTML puro.
